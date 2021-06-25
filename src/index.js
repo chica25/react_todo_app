@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 
 ReactDOM.render(
-    <App />,
+    <App subject ="Pat" />,
   document.getElementById('root')
 );
 

@@ -2,9 +2,9 @@ import './App.css';
 
 function App(props) {
 console.log(props)
-  // const subject = "React";
+  // const subject = props.subject;
   return (
-    
+    <div></div>
   );
 }
 
