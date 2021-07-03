@@ -14,7 +14,11 @@ function App(props) {
           <button type="submit" className="btn bnt-primary btn-lg"Add></button>
         </form>
         <div className="filters btn-group stack-exception">
-          <button type="button" className="btn toggle-btn" aria-pressed="false"></button>
+          <button type="button" className="btn toggle-btn" aria-pressed="true">
+            <span className="visually hidden">Show </span>
+            <span>all</span>
+            <span className="visually-hidden"> Tasks</span>
+          </button>
         </div>
     </div>
   );
