@@ -19,7 +19,22 @@ function App(props) {
             <span>all</span>
             <span className="visually-hidden"> Tasks</span>
           </button>
+          <button type="button" className="btn toggle-btn" aria-pressed="false">
+            <span className="visually-hidden">Show </span>
+            <span>Completed</span>
+          </button>
         </div>
+        <h2 id="list-heading">
+          3 tasks remaining
+        </h2>
+        <ul role="list" className="todo-list stack-large stack-exception" aria-labelledby="list-heading">
+        <li className="todo stack-small">
+          <div clasName="c-cb">
+            <input id="todo-0" type="checkbox" defaultChecked="{true} />
+          </div>
+        </li>
+
+        </ul>
     </div>
   );
 }
